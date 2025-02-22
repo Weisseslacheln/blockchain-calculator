@@ -1,0 +1,12 @@
+# Зависимости Node.js
+node_modules/
+*/node_modules/
+
+# Служебные файлы сборки
+client/dist/
+clieet/build/
+client/public/*.map
+
+# Файлы окружения с конфиденциальными данными
+server/.env
+

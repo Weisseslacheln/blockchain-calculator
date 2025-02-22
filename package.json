@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-calculator",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "npm install --save-dev concurrently && cd server && npm install && cd ../client && npm install",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd client && npm start",
+    "start:backend": "cd server && node server"
+  },
+  "devDependencies": {
+  "concurrently": "^8.2.2" 
+}
+}
